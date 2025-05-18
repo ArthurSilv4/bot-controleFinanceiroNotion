@@ -17,7 +17,7 @@ Este projeto é um bot para WhatsApp que integra comandos financeiros com uma AP
 ### 1. Clone o repositório
 
 ```sh
-git clone https://github.com/seu-usuario/bot-controleFinanceiroNotion.git
+git clone https://github.com/ArthurSilv4/bot-controleFinanceiroNotion.git
 cd bot-controleFinanceiroNotion
 ```
 
@@ -32,7 +32,7 @@ npm install
 Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
 
 ```
-API_URL=https://localhost:32769
+API_URL=https://api-controlefinanceironotion.onrender.com
 NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
 
@@ -57,9 +57,10 @@ node index.js
 
 ## Observações
 
-- O bot utiliza o pacote [Baileys](https://github.com/adiwajshing/Baileys) para integração com o WhatsApp Web.
+- O bot utiliza o pacote [Baileys](https://baileys.wiki/docs/intro/) para integração com o WhatsApp Web.
 - O certificado TLS é ignorado em ambiente de desenvolvimento. **Não use NODE_TLS_REJECT_UNAUTHORIZED=0 em produção!**
 - O endpoint da API deve estar acessível a partir do ambiente onde o bot está rodando.
+- **API utilizada:** [api-controlefinanceironotion](https://github.com/ArthurSilv4/api-controleFinanceiroNotion)
 
 ## Estrutura do Projeto
 
